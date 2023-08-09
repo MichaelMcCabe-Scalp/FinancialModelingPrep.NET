@@ -78,6 +78,14 @@
             <param name="to">Format YYYY-MM-DD</param>
             <returns><see cref="T:MatthiWare.FinancialModelingPrep.Model.Economics.EconomicIndicatorResponse"/></returns>
         </member>
+        <member name="M:MatthiWare.FinancialModelingPrep.Abstractions.Economics.IEconomicsProvider.GetTreasuryRatesAsync(System.String,System.String)">
+            <summary>
+            Gets a list of Treasury Rates for a given timeframe
+            </summary>
+            <param name="from">Format YYYY-MM-DD</param>
+            <param name="to">Format YYYY-MM-DD</param>
+            <returns></returns>
+        </member>
         <member name="M:MatthiWare.FinancialModelingPrep.Abstractions.InstitutionalFund.IInstitutionalFundProvider.Get13FListAsync">
             <summary>
             Complete list of all institutional investment managers by cik 

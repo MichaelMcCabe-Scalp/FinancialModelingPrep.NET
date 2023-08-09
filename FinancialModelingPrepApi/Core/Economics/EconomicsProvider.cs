@@ -36,5 +36,22 @@ namespace MatthiWare.FinancialModelingPrep.Core.Economics
 
             return client.GetJsonAsync<List<EconomicIndicatorResponse>>(url, pathParams, queryString);
         }
+
+        public Task<ApiResponse<List<TreasuryRateResponse>>> GetTreasuryRatesAsync(string from, string to)
+        {
+            const string url = "[version]/treasury";
+
+            var pathParams = new NameValueCollection()
+            {
+                { "version", ApiVersion.v4.ToString() },
+            };
+
+            var queryString = new QueryStringBuilder();
+
+            queryString.Add("from", from);
+            queryString.Add("to", to);
+
+            return client.GetJsonAsync<List<TreasuryRateResponse>>(url, pathParams, queryString);
+        }
     }
 }

@@ -11,7 +11,7 @@ namespace MatthiWare.FinancialModelingPrep.Model.Calendars
         public string Label { get; set; }
 
         [JsonPropertyName("adjDividend")]
-        public double AdjDividend { get; set; }
+        public double? AdjDividend { get; set; }
 
         [JsonPropertyName("symbol")]
         public string Symbol { get; set; }

@@ -11,19 +11,19 @@ namespace MatthiWare.FinancialModelingPrep.Model.StockMarket
         public string CompanyName { get; set; }
 
         [JsonPropertyName("marketCap")]
-        public decimal MarketCap { get; set; }
+        public decimal? MarketCap { get; set; }
 
         [JsonPropertyName("sector")]
         public string Sector { get; set; }
 
         [JsonPropertyName("beta")]
-        public decimal Beta { get; set; }
+        public decimal? Beta { get; set; }
 
         [JsonPropertyName("price")]
-        public decimal Price { get; set; }
+        public decimal? Price { get; set; }
 
         [JsonPropertyName("lastAnnualDividend")]
-        public decimal LastAnnualDividend { get; set; }
+        public decimal? LastAnnualDividend { get; set; }
 
         [JsonPropertyName("volume")]
         public int Volume { get; set; }

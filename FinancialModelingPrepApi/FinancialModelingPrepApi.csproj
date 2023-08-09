@@ -23,7 +23,7 @@
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-		<DocumentationFile>D:\Source\Repos\FinancialModelingPrep.NET\FinancialModelingPrepApi\FinancialModelingPrepApi.xml</DocumentationFile>
+		<DocumentationFile>C:\Users\scalp\Documents\repos\FinancialModelingPrep.NET\FinancialModelingPrepApi\FinancialModelingPrepApi.xml</DocumentationFile>
 	</PropertyGroup>
 
 	<ItemGroup>

@@ -15,5 +15,13 @@ namespace MatthiWare.FinancialModelingPrep.Abstractions.Economics
         /// <param name="to">Format YYYY-MM-DD</param>
         /// <returns><see cref="EconomicIndicatorResponse"/></returns>
         public Task<ApiResponse<List<EconomicIndicatorResponse>>> GetEconomicIndicatorAsync(EconomicIndicator indicator, string from, string to);
+
+        /// <summary>
+        /// Gets a list of Treasury Rates for a given timeframe
+        /// </summary>
+        /// <param name="from">Format YYYY-MM-DD</param>
+        /// <param name="to">Format YYYY-MM-DD</param>
+        /// <returns></returns>
+        public Task<ApiResponse<List<TreasuryRateResponse>>> GetTreasuryRatesAsync(string from, string to);
     }
 }
