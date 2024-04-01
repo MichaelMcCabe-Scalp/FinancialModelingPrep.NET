@@ -5,19 +5,18 @@
 		<RootNamespace>MatthiWare.FinancialModelingPrep</RootNamespace>
 		<PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-		<Company>MatthiWare</Company>
-		<PackageId>MatthiWare.FinancialModelingPrep</PackageId>
+		<Company>ScalpTrade</Company>
+		<PackageId>ScalpTrade.FinancialModelingPrep</PackageId>
 		<Description>FinancialModelingPrep API Client written in .NET 7</Description>
-		<Copyright>Copyright Matthias Beerens 2021</Copyright>
+		<Copyright>MIT</Copyright>
 		<Product>FinancialModelingPrep API Client</Product>
-		<Authors>Matthias Beerens</Authors>
+		<Authors>Matthias Beerens, ScalpTrade</Authors>
 		<PackageLicenseFile>LICENSE</PackageLicenseFile>
-		<RepositoryUrl>https://github.com/MatthiWare/FinancialModelingPrep.NET</RepositoryUrl>
+		<RepositoryUrl>https://github.com/MichaelMcCabe-Scalp/FinancialModelingPrep.NET</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
 		<PackageTags>FinancialModelingPrep stock quote finance-api</PackageTags>
-		<PackageProjectUrl>https://github.com/MatthiWare/FinancialModelingPrep.NET</PackageProjectUrl>
-		<PackageReleaseNotes>- Include .NET 6 and .NET 7 in nuget package
-- Add Economic Indicators
+		<PackageProjectUrl>https://github.com/MichaelMcCabe-Scalp/FinancialModelingPrep.NET</PackageProjectUrl>
+		<PackageReleaseNotes>
 		</PackageReleaseNotes>
 		<AssemblyName>FinancialModelingPrep</AssemblyName>
 	</PropertyGroup>
@@ -42,6 +41,9 @@
 		<MinVerTagPrefix>v</MinVerTagPrefix>
 		<MinVerIgnoreHeight>true</MinVerIgnoreHeight>
 		<MinVerVerbosity>normal</MinVerVerbosity>
+		<Version>1.0.0</Version>
+		<AssemblyVersion>1.0.0</AssemblyVersion>
+		<FileVersion>1.0.0</FileVersion>
 	</PropertyGroup>
 
 	<ItemGroup>
